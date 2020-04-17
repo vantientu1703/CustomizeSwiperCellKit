@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF24B3EA2449597100675963 /* SwiperCollectionViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B3E92449597100675963 /* SwiperCollectionViewCellController.swift */; };
+		EF24B40E244962AE00675963 /* SwipeTableViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B3F6244962AE00675963 /* SwipeTableViewCellDelegate.swift */; };
+		EF24B40F244962AE00675963 /* SwipeAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B3F7244962AE00675963 /* SwipeAnimator.swift */; };
+		EF24B410244962AE00675963 /* SwipeCollectionViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B3F8244962AE00675963 /* SwipeCollectionViewCell+Display.swift */; };
+		EF24B411244962AE00675963 /* Swipeable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B3F9244962AE00675963 /* Swipeable.swift */; };
+		EF24B412244962AE00675963 /* SwipeAccessibilityCustomAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B3FA244962AE00675963 /* SwipeAccessibilityCustomAction.swift */; };
+		EF24B413244962AE00675963 /* SwipeActionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B3FB244962AE00675963 /* SwipeActionButton.swift */; };
+		EF24B414244962AE00675963 /* SwipeTransitionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B3FC244962AE00675963 /* SwipeTransitionLayout.swift */; };
+		EF24B415244962AE00675963 /* SwipeAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B3FD244962AE00675963 /* SwipeAction.swift */; };
+		EF24B416244962AE00675963 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B3FE244962AE00675963 /* Extensions.swift */; };
+		EF24B417244962AE00675963 /* SwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B3FF244962AE00675963 /* SwipeController.swift */; };
+		EF24B418244962AE00675963 /* SwipeFeedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B400244962AE00675963 /* SwipeFeedback.swift */; };
+		EF24B419244962AE00675963 /* SwipeActionTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B401244962AE00675963 /* SwipeActionTransitioning.swift */; };
+		EF24B41A244962AE00675963 /* SwipeCollectionViewCellDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B402244962AE00675963 /* SwipeCollectionViewCellDelegate.swift */; };
+		EF24B41B244962AE00675963 /* SwipeTableViewCell+Display.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B403244962AE00675963 /* SwipeTableViewCell+Display.swift */; };
+		EF24B41C244962AE00675963 /* SwipeOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B404244962AE00675963 /* SwipeOptions.swift */; };
+		EF24B41D244962AE00675963 /* SwipeCollectionViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B405244962AE00675963 /* SwipeCollectionViewCell+Accessibility.swift */; };
+		EF24B41E244962AE00675963 /* SwipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B406244962AE00675963 /* SwipeCollectionViewCell.swift */; };
+		EF24B41F244962AE00675963 /* SwipeTableViewCell+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B407244962AE00675963 /* SwipeTableViewCell+Accessibility.swift */; };
+		EF24B420244962AE00675963 /* SwipeExpansionStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B408244962AE00675963 /* SwipeExpansionStyle.swift */; };
+		EF24B421244962AE00675963 /* SwipeExpanding.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B409244962AE00675963 /* SwipeExpanding.swift */; };
+		EF24B423244962AE00675963 /* SwipeActionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B40B244962AE00675963 /* SwipeActionsView.swift */; };
+		EF24B424244962AE00675963 /* SwipeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF24B40D244962AE00675963 /* SwipeTableViewCell.swift */; };
+		EF740F4924481772005FBD5A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF740F4824481772005FBD5A /* AppDelegate.swift */; };
+		EF740F4B24481772005FBD5A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF740F4A24481772005FBD5A /* SceneDelegate.swift */; };
+		EF740F4D24481772005FBD5A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF740F4C24481772005FBD5A /* ViewController.swift */; };
+		EF740F5024481772005FBD5A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF740F4E24481772005FBD5A /* Main.storyboard */; };
+		EF740F5224481777005FBD5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF740F5124481777005FBD5A /* Assets.xcassets */; };
+		EF740F5524481777005FBD5A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF740F5324481777005FBD5A /* LaunchScreen.storyboard */; };
+		EF740F6024481778005FBD5A /* CustomizeSwipeCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF740F5F24481778005FBD5A /* CustomizeSwipeCellTests.swift */; };
+		EF740F6B24481778005FBD5A /* CustomizeSwipeCellUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF740F6A24481778005FBD5A /* CustomizeSwipeCellUITests.swift */; };
+		EF740FB3244865D9005FBD5A /* MockerSwipeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF740FB1244865D9005FBD5A /* MockerSwipeController.swift */; };
+		EF740FB4244865D9005FBD5A /* UICollectionViewCell+Swiper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF740FB2244865D9005FBD5A /* UICollectionViewCell+Swiper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF740F5C24481778005FBD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF740F3D24481772005FBD5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF740F4424481772005FBD5A;
+			remoteInfo = CustomizeSwipeCell;
+		};
+		EF740F6724481778005FBD5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF740F3D24481772005FBD5A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF740F4424481772005FBD5A;
+			remoteInfo = CustomizeSwipeCell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF24B3E92449597100675963 /* SwiperCollectionViewCellController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiperCollectionViewCellController.swift; sourceTree = "<group>"; };
+		EF24B3F6244962AE00675963 /* SwipeTableViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeTableViewCellDelegate.swift; sourceTree = "<group>"; };
+		EF24B3F7244962AE00675963 /* SwipeAnimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeAnimator.swift; sourceTree = "<group>"; };
+		EF24B3F8244962AE00675963 /* SwipeCollectionViewCell+Display.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwipeCollectionViewCell+Display.swift"; sourceTree = "<group>"; };
+		EF24B3F9244962AE00675963 /* Swipeable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swipeable.swift; sourceTree = "<group>"; };
+		EF24B3FA244962AE00675963 /* SwipeAccessibilityCustomAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeAccessibilityCustomAction.swift; sourceTree = "<group>"; };
+		EF24B3FB244962AE00675963 /* SwipeActionButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionButton.swift; sourceTree = "<group>"; };
+		EF24B3FC244962AE00675963 /* SwipeTransitionLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeTransitionLayout.swift; sourceTree = "<group>"; };
+		EF24B3FD244962AE00675963 /* SwipeAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeAction.swift; sourceTree = "<group>"; };
+		EF24B3FE244962AE00675963 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		EF24B3FF244962AE00675963 /* SwipeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeController.swift; sourceTree = "<group>"; };
+		EF24B400244962AE00675963 /* SwipeFeedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeFeedback.swift; sourceTree = "<group>"; };
+		EF24B401244962AE00675963 /* SwipeActionTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionTransitioning.swift; sourceTree = "<group>"; };
+		EF24B402244962AE00675963 /* SwipeCollectionViewCellDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCollectionViewCellDelegate.swift; sourceTree = "<group>"; };
+		EF24B403244962AE00675963 /* SwipeTableViewCell+Display.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwipeTableViewCell+Display.swift"; sourceTree = "<group>"; };
+		EF24B404244962AE00675963 /* SwipeOptions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeOptions.swift; sourceTree = "<group>"; };
+		EF24B405244962AE00675963 /* SwipeCollectionViewCell+Accessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwipeCollectionViewCell+Accessibility.swift"; sourceTree = "<group>"; };
+		EF24B406244962AE00675963 /* SwipeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		EF24B407244962AE00675963 /* SwipeTableViewCell+Accessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwipeTableViewCell+Accessibility.swift"; sourceTree = "<group>"; };
+		EF24B408244962AE00675963 /* SwipeExpansionStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeExpansionStyle.swift; sourceTree = "<group>"; };
+		EF24B409244962AE00675963 /* SwipeExpanding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeExpanding.swift; sourceTree = "<group>"; };
+		EF24B40B244962AE00675963 /* SwipeActionsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeActionsView.swift; sourceTree = "<group>"; };
+		EF24B40C244962AE00675963 /* SwipeCellKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeCellKit.h; sourceTree = "<group>"; };
+		EF24B40D244962AE00675963 /* SwipeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwipeTableViewCell.swift; sourceTree = "<group>"; };
+		EF740F4524481772005FBD5A /* CustomizeSwipeCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomizeSwipeCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF740F4824481772005FBD5A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EF740F4A24481772005FBD5A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EF740F4C24481772005FBD5A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EF740F4F24481772005FBD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF740F5124481777005FBD5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EF740F5424481777005FBD5A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EF740F5624481777005FBD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF740F5B24481778005FBD5A /* CustomizeSwipeCellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomizeSwipeCellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF740F5F24481778005FBD5A /* CustomizeSwipeCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeSwipeCellTests.swift; sourceTree = "<group>"; };
+		EF740F6124481778005FBD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF740F6624481778005FBD5A /* CustomizeSwipeCellUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomizeSwipeCellUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF740F6A24481778005FBD5A /* CustomizeSwipeCellUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeSwipeCellUITests.swift; sourceTree = "<group>"; };
+		EF740F6C24481778005FBD5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF740FB1244865D9005FBD5A /* MockerSwipeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockerSwipeController.swift; sourceTree = "<group>"; };
+		EF740FB2244865D9005FBD5A /* UICollectionViewCell+Swiper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Swiper.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF740F4224481772005FBD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF740F5824481778005FBD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF740F6324481778005FBD5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF24B3F5244962AE00675963 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				EF24B3F6244962AE00675963 /* SwipeTableViewCellDelegate.swift */,
+				EF24B3F7244962AE00675963 /* SwipeAnimator.swift */,
+				EF24B3F8244962AE00675963 /* SwipeCollectionViewCell+Display.swift */,
+				EF24B3F9244962AE00675963 /* Swipeable.swift */,
+				EF24B3FA244962AE00675963 /* SwipeAccessibilityCustomAction.swift */,
+				EF24B3FB244962AE00675963 /* SwipeActionButton.swift */,
+				EF24B3FC244962AE00675963 /* SwipeTransitionLayout.swift */,
+				EF24B3FD244962AE00675963 /* SwipeAction.swift */,
+				EF24B3FE244962AE00675963 /* Extensions.swift */,
+				EF24B3FF244962AE00675963 /* SwipeController.swift */,
+				EF24B400244962AE00675963 /* SwipeFeedback.swift */,
+				EF24B401244962AE00675963 /* SwipeActionTransitioning.swift */,
+				EF24B402244962AE00675963 /* SwipeCollectionViewCellDelegate.swift */,
+				EF24B403244962AE00675963 /* SwipeTableViewCell+Display.swift */,
+				EF24B404244962AE00675963 /* SwipeOptions.swift */,
+				EF24B405244962AE00675963 /* SwipeCollectionViewCell+Accessibility.swift */,
+				EF24B406244962AE00675963 /* SwipeCollectionViewCell.swift */,
+				EF24B407244962AE00675963 /* SwipeTableViewCell+Accessibility.swift */,
+				EF24B408244962AE00675963 /* SwipeExpansionStyle.swift */,
+				EF24B409244962AE00675963 /* SwipeExpanding.swift */,
+				EF24B40B244962AE00675963 /* SwipeActionsView.swift */,
+				EF24B40C244962AE00675963 /* SwipeCellKit.h */,
+				EF24B40D244962AE00675963 /* SwipeTableViewCell.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		EF740F3C24481772005FBD5A = {
+			isa = PBXGroup;
+			children = (
+				EF740F4724481772005FBD5A /* CustomizeSwipeCell */,
+				EF740F5E24481778005FBD5A /* CustomizeSwipeCellTests */,
+				EF740F6924481778005FBD5A /* CustomizeSwipeCellUITests */,
+				EF740F4624481772005FBD5A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF740F4624481772005FBD5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF740F4524481772005FBD5A /* CustomizeSwipeCell.app */,
+				EF740F5B24481778005FBD5A /* CustomizeSwipeCellTests.xctest */,
+				EF740F6624481778005FBD5A /* CustomizeSwipeCellUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF740F4724481772005FBD5A /* CustomizeSwipeCell */ = {
+			isa = PBXGroup;
+			children = (
+				EF740FB1244865D9005FBD5A /* MockerSwipeController.swift */,
+				EF24B3E92449597100675963 /* SwiperCollectionViewCellController.swift */,
+				EF740FB2244865D9005FBD5A /* UICollectionViewCell+Swiper.swift */,
+				EF24B3F5244962AE00675963 /* Source */,
+				EF740F4824481772005FBD5A /* AppDelegate.swift */,
+				EF740F4A24481772005FBD5A /* SceneDelegate.swift */,
+				EF740F4C24481772005FBD5A /* ViewController.swift */,
+				EF740F4E24481772005FBD5A /* Main.storyboard */,
+				EF740F5124481777005FBD5A /* Assets.xcassets */,
+				EF740F5324481777005FBD5A /* LaunchScreen.storyboard */,
+				EF740F5624481777005FBD5A /* Info.plist */,
+			);
+			path = CustomizeSwipeCell;
+			sourceTree = "<group>";
+		};
+		EF740F5E24481778005FBD5A /* CustomizeSwipeCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF740F5F24481778005FBD5A /* CustomizeSwipeCellTests.swift */,
+				EF740F6124481778005FBD5A /* Info.plist */,
+			);
+			path = CustomizeSwipeCellTests;
+			sourceTree = "<group>";
+		};
+		EF740F6924481778005FBD5A /* CustomizeSwipeCellUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EF740F6A24481778005FBD5A /* CustomizeSwipeCellUITests.swift */,
+				EF740F6C24481778005FBD5A /* Info.plist */,
+			);
+			path = CustomizeSwipeCellUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF740F4424481772005FBD5A /* CustomizeSwipeCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF740F6F24481778005FBD5A /* Build configuration list for PBXNativeTarget "CustomizeSwipeCell" */;
+			buildPhases = (
+				EF740F4124481772005FBD5A /* Sources */,
+				EF740F4224481772005FBD5A /* Frameworks */,
+				EF740F4324481772005FBD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomizeSwipeCell;
+			productName = CustomizeSwipeCell;
+			productReference = EF740F4524481772005FBD5A /* CustomizeSwipeCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF740F5A24481778005FBD5A /* CustomizeSwipeCellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF740F7224481778005FBD5A /* Build configuration list for PBXNativeTarget "CustomizeSwipeCellTests" */;
+			buildPhases = (
+				EF740F5724481778005FBD5A /* Sources */,
+				EF740F5824481778005FBD5A /* Frameworks */,
+				EF740F5924481778005FBD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF740F5D24481778005FBD5A /* PBXTargetDependency */,
+			);
+			name = CustomizeSwipeCellTests;
+			productName = CustomizeSwipeCellTests;
+			productReference = EF740F5B24481778005FBD5A /* CustomizeSwipeCellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EF740F6524481778005FBD5A /* CustomizeSwipeCellUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF740F7524481778005FBD5A /* Build configuration list for PBXNativeTarget "CustomizeSwipeCellUITests" */;
+			buildPhases = (
+				EF740F6224481778005FBD5A /* Sources */,
+				EF740F6324481778005FBD5A /* Frameworks */,
+				EF740F6424481778005FBD5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF740F6824481778005FBD5A /* PBXTargetDependency */,
+			);
+			name = CustomizeSwipeCellUITests;
+			productName = CustomizeSwipeCellUITests;
+			productReference = EF740F6624481778005FBD5A /* CustomizeSwipeCellUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF740F3D24481772005FBD5A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Van Tien Tu";
+				TargetAttributes = {
+					EF740F4424481772005FBD5A = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					EF740F5A24481778005FBD5A = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = EF740F4424481772005FBD5A;
+					};
+					EF740F6524481778005FBD5A = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = EF740F4424481772005FBD5A;
+					};
+				};
+			};
+			buildConfigurationList = EF740F4024481772005FBD5A /* Build configuration list for PBXProject "CustomizeSwipeCell" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF740F3C24481772005FBD5A;
+			productRefGroup = EF740F4624481772005FBD5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF740F4424481772005FBD5A /* CustomizeSwipeCell */,
+				EF740F5A24481778005FBD5A /* CustomizeSwipeCellTests */,
+				EF740F6524481778005FBD5A /* CustomizeSwipeCellUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF740F4324481772005FBD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF740F5524481777005FBD5A /* LaunchScreen.storyboard in Resources */,
+				EF740F5224481777005FBD5A /* Assets.xcassets in Resources */,
+				EF740F5024481772005FBD5A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF740F5924481778005FBD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF740F6424481778005FBD5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF740F4124481772005FBD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF24B423244962AE00675963 /* SwipeActionsView.swift in Sources */,
+				EF24B420244962AE00675963 /* SwipeExpansionStyle.swift in Sources */,
+				EF24B41C244962AE00675963 /* SwipeOptions.swift in Sources */,
+				EF740F4D24481772005FBD5A /* ViewController.swift in Sources */,
+				EF24B414244962AE00675963 /* SwipeTransitionLayout.swift in Sources */,
+				EF24B40F244962AE00675963 /* SwipeAnimator.swift in Sources */,
+				EF24B411244962AE00675963 /* Swipeable.swift in Sources */,
+				EF740F4924481772005FBD5A /* AppDelegate.swift in Sources */,
+				EF24B3EA2449597100675963 /* SwiperCollectionViewCellController.swift in Sources */,
+				EF24B415244962AE00675963 /* SwipeAction.swift in Sources */,
+				EF24B421244962AE00675963 /* SwipeExpanding.swift in Sources */,
+				EF24B412244962AE00675963 /* SwipeAccessibilityCustomAction.swift in Sources */,
+				EF24B419244962AE00675963 /* SwipeActionTransitioning.swift in Sources */,
+				EF740FB3244865D9005FBD5A /* MockerSwipeController.swift in Sources */,
+				EF24B40E244962AE00675963 /* SwipeTableViewCellDelegate.swift in Sources */,
+				EF24B41D244962AE00675963 /* SwipeCollectionViewCell+Accessibility.swift in Sources */,
+				EF24B418244962AE00675963 /* SwipeFeedback.swift in Sources */,
+				EF24B416244962AE00675963 /* Extensions.swift in Sources */,
+				EF24B413244962AE00675963 /* SwipeActionButton.swift in Sources */,
+				EF24B417244962AE00675963 /* SwipeController.swift in Sources */,
+				EF24B410244962AE00675963 /* SwipeCollectionViewCell+Display.swift in Sources */,
+				EF24B41A244962AE00675963 /* SwipeCollectionViewCellDelegate.swift in Sources */,
+				EF24B41E244962AE00675963 /* SwipeCollectionViewCell.swift in Sources */,
+				EF740F4B24481772005FBD5A /* SceneDelegate.swift in Sources */,
+				EF24B41B244962AE00675963 /* SwipeTableViewCell+Display.swift in Sources */,
+				EF740FB4244865D9005FBD5A /* UICollectionViewCell+Swiper.swift in Sources */,
+				EF24B424244962AE00675963 /* SwipeTableViewCell.swift in Sources */,
+				EF24B41F244962AE00675963 /* SwipeTableViewCell+Accessibility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF740F5724481778005FBD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF740F6024481778005FBD5A /* CustomizeSwipeCellTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF740F6224481778005FBD5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF740F6B24481778005FBD5A /* CustomizeSwipeCellUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF740F5D24481778005FBD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF740F4424481772005FBD5A /* CustomizeSwipeCell */;
+			targetProxy = EF740F5C24481778005FBD5A /* PBXContainerItemProxy */;
+		};
+		EF740F6824481778005FBD5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF740F4424481772005FBD5A /* CustomizeSwipeCell */;
+			targetProxy = EF740F6724481778005FBD5A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF740F4E24481772005FBD5A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF740F4F24481772005FBD5A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF740F5324481777005FBD5A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF740F5424481777005FBD5A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF740F6D24481778005FBD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF740F6E24481778005FBD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF740F7024481778005FBD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomizeSwipeCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vantientu.vn.CustomizeSwipeCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF740F7124481778005FBD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomizeSwipeCell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vantientu.vn.CustomizeSwipeCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EF740F7324481778005FBD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomizeSwipeCellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vantientu.vn.CustomizeSwipeCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomizeSwipeCell.app/CustomizeSwipeCell";
+			};
+			name = Debug;
+		};
+		EF740F7424481778005FBD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomizeSwipeCellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vantientu.vn.CustomizeSwipeCellTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomizeSwipeCell.app/CustomizeSwipeCell";
+			};
+			name = Release;
+		};
+		EF740F7624481778005FBD5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomizeSwipeCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vantientu.vn.CustomizeSwipeCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomizeSwipeCell;
+			};
+			name = Debug;
+		};
+		EF740F7724481778005FBD5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CustomizeSwipeCellUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vantientu.vn.CustomizeSwipeCellUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomizeSwipeCell;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF740F4024481772005FBD5A /* Build configuration list for PBXProject "CustomizeSwipeCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF740F6D24481778005FBD5A /* Debug */,
+				EF740F6E24481778005FBD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF740F6F24481778005FBD5A /* Build configuration list for PBXNativeTarget "CustomizeSwipeCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF740F7024481778005FBD5A /* Debug */,
+				EF740F7124481778005FBD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF740F7224481778005FBD5A /* Build configuration list for PBXNativeTarget "CustomizeSwipeCellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF740F7324481778005FBD5A /* Debug */,
+				EF740F7424481778005FBD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF740F7524481778005FBD5A /* Build configuration list for PBXNativeTarget "CustomizeSwipeCellUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF740F7624481778005FBD5A /* Debug */,
+				EF740F7724481778005FBD5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF740F3D24481772005FBD5A /* Project object */;
+}
